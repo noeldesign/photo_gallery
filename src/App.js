@@ -1,11 +1,18 @@
 import './App.css';
-import MasonryGrid from './MasonryGrid';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import HomePage from './pages/Home';
+import MasonryGrid from './components/MasonryGrid';
+
+const router = createBrowserRouter([
+  {path: '/', element: <HomePage /> },
+  {path: '/Masonry', element: <MasonryGrid /> },
+])
 
 function App() {
   return (
-    <div className="App">
-      <MasonryGrid />
-    </div>
+    <RouterProvider router={router}>
+      <div className="App"></div>
+    </RouterProvider>
   );
 }
 
