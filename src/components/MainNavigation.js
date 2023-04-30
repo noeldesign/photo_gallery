@@ -32,7 +32,7 @@ function MainNavigation() {
                         <Offcanvas.Body>
                             <Nav className="justify-content-end flex-grow-1 pe-3">
                                 <Nav.Link href="/">Home</Nav.Link>
-                                <Nav.Link href="#">Events</Nav.Link>
+                                <Nav.Link href="/events">Events</Nav.Link>
                                 <Nav.Link href="#">Men</Nav.Link>
                                 <Nav.Link href="#">Women</Nav.Link>
                             </Nav>

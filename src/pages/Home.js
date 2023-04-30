@@ -5,7 +5,11 @@ const HomePage = () => {
   return (
     <div>
         <h1>HomePage</h1>
-        <Link to="/Masonry">View Masonry Grid</Link>
+        <ul>
+            <li>
+                <Link to="/Events">Events Album</Link>
+            </li>
+        </ul>
     </div>
   )
 }
